@@ -23,7 +23,14 @@ h2 {
 	width: 40px;
 	display: inline-block;
 }
-
+#form {
+	display: flex;
+	flex-direction: column;
+}
+input,
+label {
+	margin: 0.5rem;
+}
 #nav-bar {
 	position: relative;
 }
