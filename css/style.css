@@ -1,20 +1,31 @@
-#header{
-    display: flex;
-    position: fixed;
-    top: 0;
+#header {
+	display: flex;
+	position: fixed;
+	top: 0;
+}
+h2 {
+	text-align: center;
+}
+#features {
+	display: flex;
+}
+.features-class {
+	text-align: justify;
+	border: 2px solid black;
+	padding: 1rem;
+	margin: 1rem;
+}
+#header-img {
+	width: 40px;
+	display: inline-block;
 }
 
-#header-img{
-    width: 40px;
-    display: inline-block;
+#nav-bar {
+	position: relative;
 }
 
-#nav-bar{
-    position: relative;
-}
-
-@media (max-width: 600px){
-    body{
-        background-color: lightblue;
-    }
+@media (max-width: 600px) {
+	body {
+		background-color: lightblue;
+	}
 }
