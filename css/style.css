@@ -1,8 +1,3 @@
-#header {
-	display: flex;
-	position: fixed;
-	top: 0;
-}
 h2 {
 	text-align: center;
 }
@@ -28,9 +23,7 @@ input,
 label {
 	margin: 0.5rem;
 }
-#nav-bar {
-	position: relative;
-}
+
 
 @media (max-width: 600px) {
 	body {
