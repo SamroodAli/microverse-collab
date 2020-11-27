@@ -1,3 +1,18 @@
+#header {
+	display: flex;
+	position: fixed;
+	top: 0;
+}
+
+#header > a {
+    text-decoration: none;
+    color: darkred;
+    font-size: 20px;
+    margin: 10px;
+    line-height: 30px;
+    background-color: gray;
+}
+
 h2 {
 	text-align: center;
 }
